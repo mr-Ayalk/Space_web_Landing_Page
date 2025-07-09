@@ -10,13 +10,13 @@ function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4 text-white font-bold text-2xl">
             <img src={Logo} alt="" className="size-10" />
-            <span>Bamah Engineering</span>
+            <span>Farez Engineering</span>
           </div>
 
           <div className="text-white hidden md:block">
             <ul className="flex items-center gap-6 text-xl py-4 sm:py-0">
               <li>
-                <a href="#">about</a>
+                <a href="#">About</a>
               </li>
               <li>
                 <a href="#">Technology</a>

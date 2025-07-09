@@ -96,7 +96,7 @@ function Footer() {
         <div className="hidden sm:block">
           <div className=" flex justify-between items-center py-6 border-t-2 border-gray-400">
             <span className="text-sm text-gray-400">
-              copyright &copy; 2025 by Bamah Engineering
+              copyright &copy; 2025 by Farez Engineering
             </span>
             <div className="flex items-center justify-center gap-4 pb-4">
               <a href="#">
