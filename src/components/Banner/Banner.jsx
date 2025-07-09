@@ -2,7 +2,7 @@ import React from "react";
 import sateliteImage from "../../assets/satellite.png";
 function Banner() {
   return (
-    <div className="bg-black text-white pb-1 relative z-50">
+    <div className="bg-black justify-center text-white pb-1 relative z-50">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
           <div data-aos="zoom-in" className="">

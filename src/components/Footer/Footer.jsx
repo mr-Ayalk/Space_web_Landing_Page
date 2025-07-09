@@ -29,11 +29,13 @@ function Footer() {
 
           {/* second col */}
 
-          <div className="grid grid-cos-2 sm:grid-cols-3 col-span-2 md:pl-10">
-            <div className="">
+          {/* Second col group */}
+          <div className="col-span-2 md:pl-10">
+            {/* Small screens: grid with 2 columns; Large: grid with 3 columns */}
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+              {/* Quick Links 1 */}
               <div className="py-8 px-4">
                 <h1 className="text-xl font-bold mb-3">Quick Links</h1>
-
                 <ul className="flex flex-col gap-3">
                   <li>
                     <a href="#">Home</a>
@@ -49,33 +51,32 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="py-8 px-4">
-              <h1 className="text-xl font-bold mb-3">Quick Links</h1>
 
-              <ul className="flex flex-col gap-3">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Login</a>
-                </li>
-              </ul>
-            </div>
-            <div className="">
+              {/* Quick Links 2 */}
               <div className="py-8 px-4">
-                <h1 className="text-xl font-bold mb-3">Contact Us</h1>
+                <h1 className="text-xl font-bold mb-3">Quick Links</h1>
+                <ul className="flex flex-col gap-3">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Services</a>
+                  </li>
+                  <li>
+                    <a href="#">Login</a>
+                  </li>
+                </ul>
               </div>
-              <div>
+
+              {/* Contact Us */}
+              <div className="py-8 px-4 col-span-2 lg:col-span-1">
+                <h1 className="text-xl font-bold mb-3">Contact Us</h1>
                 <div className="flex items-center gap-2">
                   <HiLocationMarker />
-                  <p>Ethiopia,Addis Ababa</p>
+                  <p>Ethiopia, Addis Ababa</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <MdMessage />
