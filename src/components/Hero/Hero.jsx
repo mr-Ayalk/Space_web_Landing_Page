@@ -1,5 +1,5 @@
 import React from "react";
-
+import MountainPng from "../../assets/moon-surface-hd.png";
 function Hero() {
   return (
     <div className="h-full bg-black/20 text-white relative z-50">
@@ -18,10 +18,19 @@ function Hero() {
             </button>
           </div>
 
-<div className=""></div>
-
+          <div className=""></div>
         </div>
       </div>
+
+      {/* surge secition */}
+
+      <img
+        src={MountainPng}
+        alt=""
+        className="absolute right-0 bottom-0 w-full brightness-50 z-10 h-24"
+      />
+      {/* bottom gradient section */}
+      <div className="absolute bottom-0 w-full z-30 bg-gradient-to-b from-transparent from-10% to-black to-90% h-[20px] sm:h-[50px] md:[60px}"></div>
     </div>
   );
 }

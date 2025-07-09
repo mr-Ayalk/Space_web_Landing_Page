@@ -1,7 +1,8 @@
 import React from "react";
-import bgVideo from "./assets/Live action footage.mp4";
+import bgVideo from "./assets/earthsurface.mp4";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
 function App() {
   return (
     <div>
@@ -17,7 +18,8 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      {/* Service card section */}
+
+      <Services />
     </div>
   );
 }
