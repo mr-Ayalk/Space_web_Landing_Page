@@ -30,8 +30,8 @@ const ServiceData = [
 ];
 function Services() {
   return (
-    <div className="bg-black text-white relative z-50">
-      <div className="container ">
+    <div className="bg-black  px-1 text-white relative z-50">
+      <div className="container mx-auto ">
         <div className="min-h-[400px]">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-50">
             {ServiceData.map((data, index) => (

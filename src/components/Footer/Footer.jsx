@@ -4,7 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import { MdCall, MdMessage } from "react-icons/md";
 function Footer() {
   return (
-    <div className="bg-gray-800 text-white relative z-50">
+    <div className="bg-gray-800 text-white  px-1 mx-auto relative z-50">
       <section className="max-w-[1200px] mx-auto text-white px-5">
         <div className="grid md:grid-cols-3 py-5">
           {/* firist col */}
