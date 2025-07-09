@@ -6,7 +6,15 @@ import Services from "./components/Services/Services";
 import Banner from "./components/Banner/Banner";
 import Banner2 from "./components/Banner/Banner2";
 import Footer from "./components/Footer/Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function App() {
+  React.useEffect(() => {
+    Aos.init({
+      duration: 1200,
+      easing: "ease-in-out",
+    });
+  });
   return (
     <div>
       <div className="h-[700px] relative">
